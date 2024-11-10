@@ -1,7 +1,7 @@
 const generateForm = document.querySelector(".generate-form");
 const generateBtn = generateForm.querySelector(".generate-btn");
 const imageGallery = document.querySelector(".image-gallery");
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = "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";
 let isImageGenerating = false;
 const updateImageCard = (imgDataArray) => {
   imgDataArray.forEach((imgObject, index) => {
